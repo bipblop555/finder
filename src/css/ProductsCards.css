@@ -1,0 +1,86 @@
+
+.container{
+    height: 50vh;
+    /* border: 1px solid lightgray; */
+
+    margin: 10px;
+
+    border: 2px solid lightgray;
+}
+.container:hover{
+    cursor: pointer;
+}
+.cards{
+
+    width: 20vw;
+    height: 35vh;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 360px;
+    height: 320px;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+.titles{
+    padding: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.titles > h2{
+    height: 50px;
+}
+.rate{
+    height: 40px;
+    padding: 10px;
+}
+.rate > p >strong{
+    color: rgba(255, 0, 0, 0.74);
+    font-weight: 700;
+}
+.addToBasket{
+    padding: 10px;
+    width: auto;
+
+    background-color: rgba(255, 0, 0, 0.74);
+    color: white;
+
+    border: 1px solid rgba(255, 0, 0, 0.74);
+    border-radius: 10px;
+
+    text-transform: uppercase;
+}
+
+.addToBasket:hover{
+    background-color: rgba(255, 0, 0, 0.808);
+    border: 1px solid red;
+
+    cursor: pointer;
+}
+
+.isFixed{
+    position: fixed;
+    background-color: #F3F1EF;
+    border: none;
+    
+    width: 70vw;
+    height: 70vh;
+    max-width: 100%;
+    max-height: 100%;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.isCentered{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}

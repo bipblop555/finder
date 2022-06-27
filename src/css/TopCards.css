@@ -1,0 +1,43 @@
+/* ::-webkit-scrollbar{
+    background-color:  #F3F1EF;
+    border: 1px solid rgba(199, 199, 199, 0.781);
+
+}  
+::-webkit-scrollbar-thumb {
+    background-color:rgba(255, 0, 0, 0.74);
+    border-radius: 20px;
+} */
+.round{
+    display: flex;
+
+    overflow-x: scroll;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.nosProduits{
+    height: 25px;
+    margin-top: 20px;
+
+}
+.nosProduits > p {
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(255, 0, 0, 0.74);
+
+    font-weight: 600;
+}
+
+.round{
+    margin-top: 20px;
+}
+.figCard{
+    width: 360px;
+    height: 320px;
+
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,11 @@
+.basketCard{
+    width: 20vw;
+    max-width: 100%;
+
+    border: 1px solid blue;
+}
+.basketTitle{
+    color: black;
+
+    font-size: 30px;
+}
